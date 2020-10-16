@@ -1,5 +1,5 @@
 require(Rcpp); require(lattice); require(animation)
-sourceCpp("rcpp_test.cpp")
+sourceCpp("Functions_Cpp.cpp")
 
 # инициализация данных
 Ampl<-1
